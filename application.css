@@ -16,8 +16,22 @@ body {
 }
 
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 32px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 100%;
+    max-width: 640px;
+}
+.logo img {
+    width: 100%;
 }
